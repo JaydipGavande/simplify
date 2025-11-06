@@ -1,0 +1,307 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background-image {
+    background-image: url('file:///C:/Users/BAAP/Desktop/simplify/login-banner-ORA7DPA3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 45%;
+    height: 100vh;
+
+}
+
+
+
+.background-image::after {
+    position: absolute;
+    content: '';
+    height: 100vh;
+    width: 45%;
+    background-color: rgba(35, 35, 63, 0.705);
+    top: 0;
+    left: 0;
+}
+
+.simplify-logo {
+    position: relative;
+    z-index: 1;
+    margin-left: 230px;
+    margin-top: 200px;
+}
+
+.next {
+    color: white;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    line-height: 30px;
+    word-spacing: -1PX;
+    letter-spacing: 2PX;
+    margin-top: 40px;
+}
+
+.direct {
+    color: white;
+    position: relative;
+    z-index: 1;
+    padding-left: 110px;
+    line-height: 35px;
+    word-spacing: -1PX;
+    letter-spacing: 2PX;
+}
+
+.gig {
+    color: white;
+    position: relative;
+    z-index: 1;
+    padding-left: 150px;
+    line-height: 30px;
+    word-spacing: -1PX;
+    letter-spacing: 2PX;
+}
+
+.main {
+    display: flex;
+}
+
+.statement {
+    color: white;
+    position: relative;
+    z-index: 1;
+    margin-left: 25px;
+    line-height: 5px;
+    word-spacing: -1PX;
+    letter-spacing: 2PX;
+}
+
+/* .madhi{
+display:inline-block;
+;
+}  */
+
+.task {
+    color: white;
+    position: relative;
+    z-index: 1;
+    margin-left: 45px;
+    line-height: 30px;
+    word-spacing: -1PX;
+    letter-spacing: 2PX;
+}
+
+.talent {
+    color: white;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    word-spacing: -1PX;
+    letter-spacing: 2PX;
+    margin-top: 10px;
+}
+
+.all {
+    display: flex;
+}
+
+.secound {
+    margin-left: -60px;
+}
+
+.welcome {
+    color: black;
+    font-size: 24px;
+    padding-left: 190px;
+    padding-top: 70px;
+}
+
+.login {
+    font-size: .9rem;
+    margin-left: 190px;
+    line-height: 20px;
+    color: #6c757d;
+
+}
+
+.email {
+    font-weight: 400;
+    border-radius: 4px;
+    margin-left: 185px;
+    margin-top: 35px;
+    width: 52.5%;
+    display: block;
+    height: 45px !important;
+    border: 2px solid rgba(241, 241, 241, .8);
+    color: #000;
+    font-size: 1.0625rem;
+    padding-left: 50px;
+
+}
+
+.me {
+    position: absolute;
+    margin-left: 202px;
+    margin-top: -38px;
+    font-size: 22px;
+    color: #536476;
+    cursor: pointer;
+}
+
+.yes {
+    position: absolute;
+    margin-left: 570px;
+    margin-top: -34px;
+    font-size: 15px;
+    color: #536476;
+    cursor: pointer;
+}
+
+
+
+
+
+.logi {
+    font-size: .9rem;
+    margin-left: 190px;
+    line-height: 1px;
+    color: #6c757d;
+
+}
+
+.emai {
+    font-weight: 400;
+    border-radius: 4px;
+    margin-left: 185px;
+    margin-top: 15px;
+    width: 52.5%;
+    display: block;
+    height: 45px !important;
+    border: 2px solid rgba(241, 241, 241, .8);
+    color: #000;
+    font-size: 1.0625rem;
+    padding-left: 50px;
+
+}
+
+.m {
+    position: absolute;
+    margin-left: 202px;
+    margin-top: -38px;
+    font-size: 22px;
+    color: #536476;
+    cursor: pointer;
+}
+
+.ye {
+    position: absolute;
+    margin-left: 570px;
+    margin-top: -34px;
+    font-size: 15px;
+    color: #536476;
+    cursor: pointer;
+}
+
+input:hover {
+    border: 2px solid #abc8fb81;
+    ;
+}
+
+.by {
+    padding-left: 190px;
+    font-size: .8625rem;
+    padding-top: 20px;
+    color: #6c757d;
+    line-height: 24px;
+}
+
+.Privacy {
+    color: #609af8;
+    ;
+}
+
+.forget {
+    padding-left: 190px;
+    font-size: .8625rem;
+    color: #6c757d;
+
+}
+
+.sign-in {
+    height: 45px !important;
+    width: 52%;
+    font-size: 1.0625rem;
+    margin-left: 185px;
+    margin-top: 15px;
+    background-color: #776de0;
+    border: none;
+    border-radius: 4px;
+    color: white;
+
+}
+
+
+.usa {
+    margin-left: 12px;
+    margin-top: 12px;
+
+}
+
+.img {
+    display: flex;
+
+    border: 1px solid red;
+    height: 45px;
+    width: 125px;
+    margin-left: 660px;
+    margin-top: 20px;
+    border: none;
+    background-color: #edf2fe;
+    border-radius:8px;
+
+
+
+}
+
+
+
+.en-us {
+    padding-left: 12px;
+    padding-top: 10px;
+
+}
+
+.euu{
+    font-size: 19px;
+    
+}
+
+h4 {
+    font-size: 10px;
+}
+
+ @media (max-width:1200px) { 
+    .background-image {
+        position: none;
+        visibility: hidden;
+    }
+
+    .secound{margin-left:-450px ;}
+}
+
+/* @media (min-width:1220px) and (max-width:1310px){
+     .background-image{
+        
+    
+     }
+} */
+
+@media (max-width:615px){
+.secound{
+    margin-left: -300px;
+}
+}   
+
+
